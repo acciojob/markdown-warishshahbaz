@@ -2,12 +2,9 @@
   padding: 0px;
   margin: 0px;
 }
-
 h1 {
-  color: #27aedb;
-  text-align: center;
+  font-weight: bold;
 }
-
 button {
   color: #27aedb;
   text-align: center;

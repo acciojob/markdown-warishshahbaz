@@ -19,7 +19,7 @@ function App() {
           placeholder="Text Area"
         />
         <section className="preview">
-          <p>{input}</p>
+          <h1>{input}</h1>
         </section>
       </main>
     </div>
