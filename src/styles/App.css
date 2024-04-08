@@ -26,5 +26,10 @@ button {
 }
 .preview {
   width: 50%;
+  padding: 12px;
   background-color: aliceblue;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
 }
