@@ -14,7 +14,9 @@ function App() {
           className="textarea"
           placeholder="Text Area"
         />
-        <section className="preview">{input}</section>
+        <section className="preview">
+          <h1>{input}</h1>
+        </section>
       </main>
     </div>
   );
