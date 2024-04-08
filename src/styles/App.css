@@ -21,6 +21,8 @@ button {
 }
 .textarea {
   width: 50%;
+  padding: 12px;
+  border: none;
 }
 .preview {
   width: 50%;

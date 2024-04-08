@@ -9,8 +9,7 @@ function App() {
   return (
     <div>
       <main className="app">
-        <input
-          type="textarea"
+        <textarea
           onChange={(e) => setInput(e.target.value)}
           className="textarea"
           placeholder="Text Area"
