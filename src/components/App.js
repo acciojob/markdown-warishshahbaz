@@ -1,15 +1,21 @@
-{
-  /* <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p> */
-}
 import React, { useEffect, useState } from "react";
 import "../styles/App.css";
 
 function App() {
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    return <h1>Loading...</h1>;
+    // simulate the loading process
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
   }, []);
+
+  if (isLoading) {
+    return <h1 className="loading">Loading...</h1>;
+  }
+
   return (
     <div>
       <main className="app">
@@ -19,7 +25,7 @@ function App() {
           placeholder="Text Area"
         />
         <section className="preview">
-          <h1>{input}</h1>
+          <h1 id="Heading">{input}</h1>
         </section>
       </main>
     </div>
